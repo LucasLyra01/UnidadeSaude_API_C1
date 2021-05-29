@@ -1,4 +1,5 @@
 const unidadeSaudeModel = require('../models/unidade-model');
+const mongodb = require('../infra/mongodb');
 
 // nome_unidade
 // descricao

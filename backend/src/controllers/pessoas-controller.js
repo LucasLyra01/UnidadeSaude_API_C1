@@ -1,13 +1,5 @@
 const pessoasModel = require('../models/pessoas-model');
-
-// nome_pessoa
-// cpf
-// data_nascimento
-// telefone_pessoa
-// grupo_prioritario
-// endereço_pessoa
-// email_pessoa
-// data_alteracao
+const mongodb = require('../infra/mongodb');
 
 exports.adicionarPessoas = (req, res) =>  {
 

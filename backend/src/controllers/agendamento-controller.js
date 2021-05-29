@@ -1,4 +1,5 @@
 const agendamentoModel = require('../models/agendamento-model');
+const mongodb = require('../infra/mongodb');
 
 // data_hora_agendamento
 // necessidades_especiais
