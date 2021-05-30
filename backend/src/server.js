@@ -3,13 +3,13 @@ require('dotenv').config({
 });
 
 const express = require('express');
-// const sync = require('./infra/postgres').sincronizarPostgres;
+const sync = require('./infra/postgres').sincronizarPostgres;
 const app = express();
 
 const port = process.env.APP_PORT;
 const hostname = process.env.APP_HOSTNAME;
 
-// (async () => await sync())()
+(async () => await sync())()
 
 const defaultRoutes = require('./routes/default');
 
