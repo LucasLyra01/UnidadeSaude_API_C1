@@ -11,11 +11,11 @@ const unidadeSchema = mongoose.Schema({
     },
     endereco_unidade: {
         type: mongoose.Schema.Types.String,
-        required: true
+        required: false
     },
     telefone_unidade: {
         type: mongoose.Schema.Types.String,
-        required: true
+        required: false
     },
     email_unidade: {
         type: mongoose.Schema.Types.String,
@@ -23,7 +23,7 @@ const unidadeSchema = mongoose.Schema({
     },
     lat_long: {
         type: mongoose.Schema.Types.String,
-        required: true
+        required: false
     },
     data_alteracao: {
         type: mongoose.Schema.Types.Date,
